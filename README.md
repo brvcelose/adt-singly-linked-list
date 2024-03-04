@@ -5,7 +5,7 @@ Implementation work for Data Structure I discipline - ADT Simply Linked List. En
 An ADT, or Abstract Data Type, is a classification for objects that specifies their behavior based on a group of values and operations. Unlike other data types, ADTs do not dictate how these operations must be executed but only focus on what functionalities they should possess. This allows flexibility in implementing ADTs, as different programming languages or systems can provide distinct ways of realizing the specified behaviors.<br>
 
 <h2> Singly Liked List Implementation </h2>
-A singly linked list is a linear data structure where each element is a separate object. Each element (or node) of a list consists of two items: the data and a reference to the next node. The last node has a reference to null, indicating the end of the list. The entry point into a linked list is called the head of the list. It should be noted that head is not a separate node, but the reference to the first node. If the list is empty, then the head is a null reference.<br><br>
+A singly linked list is a linear data structure where each element is a separate object and they are not stored in contiguous memory locations. Each element (or node) of a list consists of two items: the data and a reference to the next node. The last node has a reference to null, indicating the end of the list. The entry point into a linked list is called the head of the list. It should be noted that head is not a separate node, but the reference to the first node. If the list is empty, then the head is a null reference.<br><br>
 
 ![singlylinkedlist](https://github.com/brvcelose/adt-singly-linked-list/assets/92281096/c27ffa7a-2638-4ed5-a642-8399164ab99a)<br>
 
