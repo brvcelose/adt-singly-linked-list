@@ -29,4 +29,4 @@ typedef struct sllist_ {
 O(n) for Accessing, insertion, or deletion at the beginning and searching for an element, where n is the number of elements.
 
 <h2> Space Complexity </h2>
-O(n), as each element requires space for its data and pointers to the next (and possibly previous) node, resulting in linear space usage proportional to the number of elements.
+O(n), as each element requires space for its data and pointers to the next node, resulting in linear space usage proportional to the number of elements.
